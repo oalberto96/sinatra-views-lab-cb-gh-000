@@ -1,2 +1,2 @@
 <%= now = DateTime.now %>
-<p>The date is <%= "#{now.weekday}, #{now.month} #{now.day}, #{now.year}"%> </p>
+<p>The date is <%= now.strftime("%A, %B %d, %Y")%> </p>
